@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+}
+header{
+    background-color: rgb(77, 201, 125);
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+    position: relative;
+    color: #333;
+}
+.Links{
+    display: flex;
+    font-size: 35px;
+    padding: 100px;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: #b9a968;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+.imges{
+    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: row;
+}
+.imges div img {
+    width: 200px;
+    height: 200px;
+}
+aside{
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    list-style: none;
+    background-color: #b9a968;
+
+}
+aside ul li{
+    list-style: none;
+margin-bottom:30px ;
+color: #222;
+text-align: center;
+}
+ p{
+    color: rgb(88, 88, 88);
+ }
+ .login{
+    
+    position: relative;
+    bottom: 80px;
+font-weight: 400;
+    font-family: sans-serif;
+ }
+ form{
+    width: 100%;
+    padding-top: 20px;
+    margin: auto;
+
+position: relative;
+left: 28%;
+    /* justify-content: center;
+    align-items: center; */
+ }
+ form label{
+    color: rgb(170, 170, 170);
+    font-family: sans-serif;
+font-weight: bold;
+padding-left: 10px;
+text-align: start;
+padding: 5px;
+display:block;
+    justify-content: center;
+    align-items: center;
+
+ }
+ form input{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 5px;
+font-family: sans-serif;
+font-weight: bold;
+    height: 45px;
+    outline: none;
+
+ }
+ input[type="submit"] {
+color: #333;
+background-color: #888;
+border: none;
+padding: 10px;
+height: 50px;
+    font-size: 30px;
+    
+ }
+ input[type="submit"]:hover{
+    color: #fff;
+background-color: #6a8072;
+ }
+ .Login_h4{
+    color: white;
+    padding: 30px;
+    text-align: center;font-size: 30px;
+    font-family: sans-serif;
+
+ }
+ .end{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 28px;
+ }
+ .link_end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 25px;
+ }
